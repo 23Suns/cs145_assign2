@@ -55,8 +55,8 @@
 
         // remove selected index by pointing to the next over the current
         ListNode current = head;
-        for (int i = 0; i < index - 1 && current != null) {
-            current = current.next
+        for (int i = 0; i < index - 1 && current != null; i++) {
+            current = current.next;
         }
         if (current == null || current.next == null) {
             System.out.println("Invalid index");

@@ -16,7 +16,7 @@
         phonebook.addEntry("John", "Smith", "456 Cedar Rd", "Citytown", "123-4567");
         phonebook.addEntry("Jane", "Smith", "453 Oak St", "Towncity", "765-4321");
         //adding entries at index
-        phonebook.addEntryAtIndex(1, "Seth", "Smith", "373 Vine Ave", "909-8081");
+        phonebook.addEntryAtIndex(1, "Seth", "Smith", "373 Vine Ave", "Placearea", "909-8081");
 
         // print index
         phonebook.printEntries();
