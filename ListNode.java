@@ -15,6 +15,7 @@ public class ListNode {
     String phoneNumber;
     ListNode next;
 
+    // constructor
     public ListNode (
         String firstName, String lastName, String address,
         String city, String phoneNumber
